@@ -1,11 +1,243 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>NovaAI Marketing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaAI Marketing</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#222;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#0f172a,#2563eb);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+header p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+color:#0f172a;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.pricing{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.price{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.price h3{
+font-size:28px;
+}
+
+.price h1{
+font-size:48px;
+color:#2563eb;
+margin:20px 0;
+}
+
+footer{
+background:#0f172a;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+input,textarea{
+width:100%;
+padding:14px;
+margin:10px 0;
+border:1px solid #ddd;
+border-radius:8px;
+}
+
+button{
+padding:15px 30px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:30px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+</style>
+
 </head>
 <body>
-  <h1>NovaAI Marketing Agency</h1>
-  <p>Your website is working successfully.</p>
+
+<header>
+
+<h1>🚀 NovaAI Marketing</h1>
+
+<p>
+Grow your business using Artificial Intelligence.
+SEO, Social Media, Paid Ads, AI Automation and Lead Generation.
+</p>
+
+<a href="#contact" class="btn">Get Started</a>
+
+</header>
+
+<section>
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🤖 AI Automation</h3>
+<p>Automate customer support, sales and business workflows.</p>
+</div>
+
+<div class="card">
+<h3>📈 SEO Optimization</h3>
+<p>Rank higher on Google and increase organic traffic.</p>
+</div>
+
+<div class="card">
+<h3>📱 Social Media Marketing</h3>
+<p>Professional Facebook, Instagram and LinkedIn campaigns.</p>
+</div>
+
+<div class="card">
+<h3>🎯 Paid Advertising</h3>
+<p>High-converting Google Ads and Meta Ads management.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Pricing</h2>
+
+<div class="pricing">
+
+<div class="price">
+<h3>Starter</h3>
+<h1>$99</h1>
+<p>SEO</p>
+<p>Social Media</p>
+<p>Email Support</p>
+</div>
+
+<div class="price">
+<h3>Professional</h3>
+<h1>$299</h1>
+<p>Everything in Starter</p>
+<p>AI Automation</p>
+<p>Google Ads</p>
+</div>
+
+<div class="price">
+<h3>Enterprise</h3>
+<h1>Custom</h1>
+<p>Full Marketing Solution</p>
+<p>Dedicated Team</p>
+<p>24/7 Support</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<textarea rows="6" placeholder="Tell us about your project"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<h3>NovaAI Marketing Agency</h3>
+
+<p>Helping businesses grow with Artificial Intelligence.</p>
+
+<p>© 2026 NovaAI Marketing. All Rights Reserved.</p>
+
+</footer>
+
 </body>
-</html>
+  </html>
